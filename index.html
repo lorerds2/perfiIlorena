@@ -91,8 +91,169 @@
             </table>
     </div>
 
+    <br>
+
+    <!-- formulario 1 -->
+
+    <div>
+
+        <h1>Formulario 1</h1>
+        <form>
+            Nome <input type="text" name="nome" id="txtNone">
+            <br>
+            Sobrenome <input type="text" name="sobrenome" id="txtSobrenome">
+
+        </form>
+
+        <form>
+            <h3>Comentario:</h3>
+            <textarea rows="5" cols="30"></textarea>
+        </form>
 
 
+        <input type="submit" value=" Enviar"/>
+    </div>
+
+    <br>
+
+    <!-- formulario 2 -->
+
+    <div>
+
+        <fieldset>
+        <legend><h1>Formulario Inativo</h1></legend>
+        <form>
+            Nome <input type="text" name="nome" id="txtNone">
+            <br>
+            Sobrenome <input type="text" name="sobrenome" id="txtSobrenome">
+        </form>
+
+        <form>
+            Data de nascimento:
+            <input type="date"          name="nascimento"
+                   min ="1950-01-01"    max="2023-12-31">
+            
+        </form>
+
+        <input type="submit" value=" Enviar"/>
+    </fieldset>
+    </div>
+    
+    <br>
+
+    <!-- formulario 3 -->
+
+    <div>
+
+        <fieldset>
+            <legend><h1>Formulario Inativo</h1></legend>
+            <form>
+                Nome <input type="text" name="nome" id="txtNone" disabled="">
+                <br>
+                Sobrenome <input type="text" name="sobrenome" id="txtSobrenome" disabled="">
+            </form>
+
+            <form>
+                Data de nascimento:
+                <input type="date"          name="nascimento"
+                    min ="1950-01-01"    max="2023-12-31"    disabled=""> 
+                
+            </form>
+
+            <input type="submit" value=" Enviar"/>
+        </fieldset>
+    </div>
+
+    <br>
+
+    <div>
+
+        <figure>
+            <img src="https://i.postimg.cc/K8hTkt6B/estudantes.jpg">
+            <figcaption>Figura de Estudantes</figcaption>
+        </figure>
+
+    </div>
+
+    <br>
+
+    <div>
+
+        Opção usando um input tipo CHECKBOX (Caixa de checagem)... <br>
+        <form>
+            Escolha uma Resposta <br>
+            <br>
+            <input type="checkbox" name="Resposta" value="aaa">aaa
+            <br>
+            <input type="checkbox" name="Resposta" value="fnaidbsi">fnaidbsi
+            <br>
+            <input type="checkbox" name="Resposta" value="...">...
+
+        </form>
+    
+    </div>
+
+    <br>
+
+    <div>
+
+        Opção usando um input tipo RADIO (Botão tipo radio)... 
+        <form>
+            <br>
+            Escolha uma Linguagem 
+            <br>
+            <input type="radio" name="Linguagem" value="Inglês">Inglês
+            <br>
+            <input type="radio" name="Linguagem" value="Espanhol">Espanhol
+            <br>
+            <input type="radio" name="Linguagem" value="Brasileiro">Brasileiro
+            <br>
+
+        </form>
+
+        <form>
+            Escolha sua Idade
+            <br>
+            <input type="radio" name="Idade" value="13-30">13-30
+            <br>
+            <input type="radio" name="Idade" value="31-60">31-60
+            <br>
+            <input type="radio" name="Idade" value="61-90">61-90
+            <br>
+        </form>
+        
+        <input type="submit" value=" Enviar"/>
+
+    </div>
+
+    <br>
+
+    <div>
+        Opção usando um input tipo PASSWORD (Senha)...
+        
+        <input type="password" name="confirmacao" required="">
+
+    </div>
+
+    <br>
+
+    <div>
+
+        Opção usando um input tipo COLOR (Cores)...
+        <br>
+        <input type="color" name="cor" value="#AABBCC">
+
+    </div>
+
+    <br>
+
+    <div>
+
+        Opção usando um input tipo NUMBER (Número)... <br>
+        Data de Nascimeto <br>
+        <input type="number" name="anoNascimeto" required="" min="1910" max="2026" step="1">
+
+    </div>
 
     <footer>
         <p>Autor: Lorena Rodrigues</p>
