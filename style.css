@@ -1,35 +1,4 @@
 html{
-    background-color: rgb(236, 390, 277)
-
-}
-
-table, th, td {
-    border:1px solid black;
-    border-radius: 10%
-}
-
-p{
-    font-family: Arial, helvetica, sans-serif;
-
-}
-
-#imagem{
-    text-align:center;
-}
-
-caption {
-    font: size 20px;
-    color: black;
-    text-align: center;
-}
-
-td{
-    text-align: center;
-    font-weight:bold;
-    color:#c26861
-}
-
-html{
     background-color:rgb(239, 240, 227)   
 }
 
