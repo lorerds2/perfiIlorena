@@ -4,7 +4,6 @@ html{
 
 table, th, td {
     border:1px solid black;
-    border-radius: 10%;
 }
 
 p{
@@ -42,26 +41,25 @@ td {
     font-size: 18;
 }
 
-figure {
-    font-size: 1px;
-    color:  #cccccc solid;
+figure{
+    padding: 4px;
+    border: 1px solid #cccccc ;
     width: 50%;
-    fill: 4px;
-    margin:auto;
+    margin: auto;
 }
 
-figcaption {
+figcaption{
     background-color: black;
     color: white;
     font-style: italic;
-    fill: 2px;
+    margin: auto;
     text-align: center;
 }
 
 figure img {
     border-radius: 50%;
-
 }
+
 
 
 table{
@@ -70,7 +68,7 @@ table{
     table-layout: fixed;
     text-align: center;
   }
-  
+
 td, th {
     padding: .7em;
     margin: 0;
@@ -79,9 +77,13 @@ td, th {
   }
   
   tr{
-    background-color: red;
+    background-color: #660000;
   }
 
   td{
     background-color: #f0f0f0;
+  }
+
+  th {
+    color: white;
   }
