@@ -93,3 +93,7 @@ td, th {
     border: 5px solid gray;
     margin: auto;
 }
+
+h2 {
+    text-align: center;
+}
