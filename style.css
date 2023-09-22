@@ -97,3 +97,10 @@ td, th {
 h2 {
     text-align: center;
 }
+.bordoutra {
+    width: 320px;
+    padding: 10px;
+    border: 1 px solid rgb(189,185,185);
+    margin: auto;
+    background-color: white;
+}
